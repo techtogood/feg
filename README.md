@@ -2,7 +2,7 @@ Translations: [简体中文](README.md) | [English](README-en.md)
 
 # 介绍
 FEG(Facial Expression Generation)项目自动动截图照片中人脸，生成gif人脸表情动画，生成的表情基于选定的表情视频模板。基于本项目，可以使用任意人脸照片生成各种各样有趣的表情。
- 基于 [First Order Motion Model](https://github.com/AliaksandrSiarohin/first-order-model).
+ 欢迎Start! 人脸活化模型基于 [First Order Motion Model](https://github.com/AliaksandrSiarohin/first-order-model).
 
 ## 示例
 ![FEG](data/example/example1.gif)
