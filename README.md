@@ -24,7 +24,7 @@ FEG(Facial Expression Generation)项目自动动截图照片中人脸，生成gi
 推荐环境：python3.6.9 on ubuntu 18.04
 
 
-ubuntu系统，python3以上环境，执行以下命令安装项目系统依赖:
+1、ubuntu系统，python3以上环境，执行以下命令安装项目系统依赖:
 ```
 sudo apt-get update
 sudo apt-get install -y libgl1-mesa-glx ffmpeg gifsicle
@@ -35,13 +35,13 @@ pip3 install -r requirements.txt
 ```
 
 
-下载预训练模型到 model/avatarify_models 目录:
+2、下载预训练模型到 model/avatarify_models 目录:
 
 [baidu-disk](https://pan.baidu.com/s/1O7K-s0oaevmF8zmLayU74Q) 提取码:z846   
 [google-drive](https://drive.google.com/file/d/1rMz7HO-znqLaW1hm_hBHQwhrAgmC6Krg/view?usp=sharing)
 
 
-运行：
+3、运行：
 ```
 python3 app.py --source_image data/input/Monalisa.png  --driving_video data/imitator_video/smile.mp4  --text nice
 ```
