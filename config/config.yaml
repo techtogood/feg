@@ -1,0 +1,12 @@
+cpu: true
+checkpoint_config: 'config/vox-256.yaml'  #path to  config
+checkpoint: 'model/avatarify_models/vox-cpk.pth.tar' #checkpoint file
+relative: true  #use relative or absolute keypoint coordinates
+adapt_scale: true #adapt movement scale based on convex hull of keypoints
+find_best_frame: false #Max number of seconds you want to trim the video from start
+original_frame_rate: false #Generate from the frame that is the most alligned with source. (Only for faces, requires face_aligment lib)
+best_frame: 0 #Set frame to start from.
+out_dir: 'data/output' #output dir
+facecropper_label_path: 'model/facecropper_models/voc-model-labels.txt'
+facecropper_model_path: 'model/facecropper_models/pretrained/version-RFB-320.pth'
+font: 'data/font/han.ttf' # font on the gif animation

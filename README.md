@@ -1,1 +1,60 @@
-# feg
+# Introduce
+FEG(Facial Expression Generation)项目自动动截图照片中人脸，生成gif人脸表情动画，生成的表情基于选定的表情视频模板。基于本项目，可以使用任意人脸照片生成各种各样有趣的表情。
+ 基于 [First Order Motion Model](https://github.com/AliaksandrSiarohin/first-order-model).
+
+## Examples
+![FEG](data/example/example1.gif)
+![FEG](data/example/example2.gif)
+![FEG](data/example/example3.gif)
+
+## 更多访问
+网站：[ffmagic.com](www.ffmagic.com)
+
+微信小程序：
+![FEG](data/img/wechat_official_account.jpg)
+
+
+## Quick Start
+
+推荐环境：python3.6.9 on ubuntu 18.04
+
+
+python3以上环境，ubuntu执行以下命令安装项目系统依赖:
+```
+apt update
+apt install -y libgl1-mesa-glx ffmpeg gifsicle
+pip3 install --upgrade pip
+git clone https://github.com/techtogood/feg
+cd avatar-imitator
+pip3 install -r requirements.txt
+```
+
+
+下载预训练模型到 model/avatarify_models 目录:
+```
+[baidu-disk]( https://pan.baidu.com/s/1O7K-s0oaevmF8zmLayU74Q   code:z846 ) or [google-drive](https://drive.google.com/file/d/1rMz7HO-znqLaW1hm_hBHQwhrAgmC6Krg/view?usp=sharing)
+```
+
+运行：
+```
+python3 app.py --source_image data/input/Monalisa.png  --driving_video data/imitator_video/smile.mp4  --text nice
+```
+source_image：源人脸图片
+driving_video：模仿的人脸表情视频
+text:gif表情动画的文字
+
+
+## YAML 配置
+
+项目工程配置，算法默认运行在CPU，如运行环境支持GPU，则算法跑到GPU：
+```config/config.yaml```
+
+avatarify模型配置:
+```vox-256.yaml```
+
+
+### Contact Us
+
+微信公众号：
+![FEG](data/img/wechat_official_account.jpg)
+
