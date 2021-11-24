@@ -11,7 +11,6 @@ FEG(Facial Expression Generation)项目自动动截图照片中人脸，生成gi
 ![FEG](data/example/example2.gif)
 ![FEG](data/example/example3.gif)
 
-## 更多请访问
 ### 网站：
 [ffmagic.com](https://www.ffmagic.com)
 
