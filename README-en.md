@@ -32,9 +32,8 @@ pip3 install -r requirements.txt
 
 
 2.download the checkpoint to dir: model/avatarify_models
-```
-[baidu-disk]( https://pan.baidu.com/s/1O7K-s0oaevmF8zmLayU74Q   code:z846 ) or [google-drive](https://drive.google.com/file/d/1rMz7HO-znqLaW1hm_hBHQwhrAgmC6Krg/view?usp=sharing)
-```
+[baidu-disk](https://pan.baidu.com/s/1O7K-s0oaevmF8zmLayU74Q) code:z846 
+[google-drive](https://drive.google.com/file/d/1rMz7HO-znqLaW1hm_hBHQwhrAgmC6Krg/view?usp=sharing)
 
 3.run:
 ```

@@ -14,7 +14,7 @@ FEG(Facial Expression Generation)项目自动动截图照片中人脸，生成gi
 [ffmagic.com](https://www.ffmagic.com)
 
 ### 微信小程序：
-![FEG](data/img/wechat_official_account.jpg)
+![FEG](data/img/wetchat_miniapp.jpg)
 
 
 ## 快速开始
@@ -22,10 +22,10 @@ FEG(Facial Expression Generation)项目自动动截图照片中人脸，生成gi
 推荐环境：python3.6.9 on ubuntu 18.04
 
 
-python3以上环境，ubuntu执行以下命令安装项目系统依赖:
+ubuntu系统，python3以上环境，执行以下命令安装项目系统依赖:
 ```
-apt update
-apt install -y libgl1-mesa-glx ffmpeg gifsicle
+sudo apt-get update
+sudo apt-get install -y libgl1-mesa-glx ffmpeg gifsicle
 pip3 install --upgrade pip
 git clone https://github.com/techtogood/feg
 cd feg
@@ -34,9 +34,10 @@ pip3 install -r requirements.txt
 
 
 下载预训练模型到 model/avatarify_models 目录:
-```
-[baidu-disk]( https://pan.baidu.com/s/1O7K-s0oaevmF8zmLayU74Q   code:z846 ) or [google-drive](https://drive.google.com/file/d/1rMz7HO-znqLaW1hm_hBHQwhrAgmC6Krg/view?usp=sharing)
-```
+
+[baidu-disk](https://pan.baidu.com/s/1O7K-s0oaevmF8zmLayU74Q) 提取码:z846 
+[google-drive](https://drive.google.com/file/d/1rMz7HO-znqLaW1hm_hBHQwhrAgmC6Krg/view?usp=sharing)
+
 
 运行：
 ```
