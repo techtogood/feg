@@ -1,3 +1,5 @@
+Translations: [简体中文](README.md) | [English](README-en.md) 
+
 # Introduce
 FEG(Facial Expression Generation) automatically takes screenshots of the faces in the photos, generates gif facial expression animations. generates expression  based on specific expressions video templates. Using this project, you can use any face photo to generate a variety of expressions.
 
@@ -10,7 +12,7 @@ Based on [First Order Motion Model](https://github.com/AliaksandrSiarohin/first-
 ![avatar-imitator](data/example/example3.gif)
 
 ## more to acccess:
-website：[ffmagic.com](www.ffmagic.com)
+website：[ffmagic.com](https://www.ffmagic.com)
 
 
 ## Quick Start
@@ -23,8 +25,8 @@ website：[ffmagic.com](www.ffmagic.com)
 apt update
 apt install -y libgl1-mesa-glx ffmpeg gifsicle
 pip3 install --upgrade pip
-git clone https://github.com/techtogood/avatar-imitator
-cd avatar-imitator
+git clone https://github.com/techtogood/feg
+cd feg
 pip3 install -r requirements.txt
 ```
 
@@ -53,8 +55,6 @@ avatarify model config
 ```vox-256.yaml```
 
 
-### Contact Us
-
-wechat offical account：
+### Contact Us(wechat offical account):
 ![FEG](data/img/wechat_official_account.jpg)
 

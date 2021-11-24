@@ -1,20 +1,23 @@
-# Introduce
+Translations: [简体中文](README.md) | [English](README-en.md) 
+
+# 介绍
 FEG(Facial Expression Generation)项目自动动截图照片中人脸，生成gif人脸表情动画，生成的表情基于选定的表情视频模板。基于本项目，可以使用任意人脸照片生成各种各样有趣的表情。
  基于 [First Order Motion Model](https://github.com/AliaksandrSiarohin/first-order-model).
 
-## Examples
+## 示例
 ![FEG](data/example/example1.gif)
 ![FEG](data/example/example2.gif)
 ![FEG](data/example/example3.gif)
 
-## 更多访问
-网站：[ffmagic.com](www.ffmagic.com)
+## 更多请访问
+### 网站：
+[ffmagic.com](https://www.ffmagic.com)
 
-微信小程序：
+### 微信小程序：
 ![FEG](data/img/wechat_official_account.jpg)
 
 
-## Quick Start
+## 快速开始
 
 推荐环境：python3.6.9 on ubuntu 18.04
 
@@ -25,7 +28,7 @@ apt update
 apt install -y libgl1-mesa-glx ffmpeg gifsicle
 pip3 install --upgrade pip
 git clone https://github.com/techtogood/feg
-cd avatar-imitator
+cd feg
 pip3 install -r requirements.txt
 ```
 
@@ -53,8 +56,7 @@ avatarify模型配置:
 ```vox-256.yaml```
 
 
-### Contact Us
+### 联系我们（微信公众号）：
 
-微信公众号：
 ![FEG](data/img/wechat_official_account.jpg)
 
