@@ -11,8 +11,6 @@ Based on [First Order Motion Model](https://github.com/AliaksandrSiarohin/first-
 ![avatar-imitator](data/example/example2.gif)
 ![avatar-imitator](data/example/example3.gif)
 
-## more to acccess:
-website：[ffmagic.com](https://www.ffmagic.com)
 
 
 ## Quick Start
@@ -54,6 +52,4 @@ avatarify model config
 ```vox-256.yaml```
 
 
-### Contact Us(wechat offical account):
-![FEG](data/img/wechat_official_account.jpg)
 
