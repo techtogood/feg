@@ -11,12 +11,6 @@ FEG(Facial Expression Generation)项目自动动截图照片中人脸，生成gi
 ![FEG](data/example/example2.gif)
 ![FEG](data/example/example3.gif)
 
-### 网站：
-[ffmagic.com](https://www.ffmagic.com)
-
-### 微信小程序：
-![FEG](data/img/wetchat_miniapp.jpg)
-
 
 ## 快速开始
 
@@ -58,7 +52,4 @@ avatarify模型配置:
 ```vox-256.yaml```
 
 
-### 联系我们（微信公众号）：
-
-![FEG](data/img/wechat_official_account.jpg)
 
