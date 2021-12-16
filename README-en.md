@@ -52,4 +52,7 @@ avatarify model config
 ```vox-256.yaml```
 
 
+### Contact Us(wechat offical account):
+![FEG](data/img/wechat_official_account.jpg)
+
 
